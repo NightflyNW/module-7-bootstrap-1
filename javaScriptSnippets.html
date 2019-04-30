@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Page Title</title>
+</head>
+<body>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                        <h2>What Can JavaScript Do?</h2>
+        
+                        <p>JavaScript can change HTML attribute values.</p>
+                        
+                        <p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+                        
+                        <button onclick="document.getElementById('myImage').src='img/pic_bulbon.gif'">Turn on the light</button>
+                        
+                        <img id="myImage" src="pic_bulboff.gif" style="width:100px">
+                        
+                        <button onclick="document.getElementById('myImage').src='img/pic_bulboff.gif'">Turn off the light</button>
+                </div>  <!-- end col-->
+            </div> 
+        </div>
+
+
+<!-- jQuery -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<!-- Bootstrap JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
